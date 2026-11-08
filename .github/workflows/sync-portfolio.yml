@@ -1,0 +1,63 @@
+name: Sync portfolio from Google Sheets
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Hourly. GitHub Actions cron is UTC.
+    - cron: "17 * * * *"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "package.json"
+      - "package-lock.json"
+      - ".github/workflows/sync-portfolio.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: portfolio-sheet-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Generate and validate JSON
+        env:
+          GOOGLE_SHEET_ID: ${{ vars.GOOGLE_SHEET_ID }}
+          SHEET_GID_PROFILE: ${{ vars.SHEET_GID_PROFILE }}
+          SHEET_GID_EXPERIENCE: ${{ vars.SHEET_GID_EXPERIENCE }}
+          SHEET_GID_PROJECTS: ${{ vars.SHEET_GID_PROJECTS }}
+          SHEET_GID_SKILLS: ${{ vars.SHEET_GID_SKILLS }}
+          SHEET_GID_EDUCATION: ${{ vars.SHEET_GID_EDUCATION }}
+          SHEET_GID_CERTIFICATIONS: ${{ vars.SHEET_GID_CERTIFICATIONS }}
+        run: |
+          npm run sync
+          npm run validate
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh portfolio data"
+            git push
+          else
+            echo "No portfolio data changes."
+          fi
