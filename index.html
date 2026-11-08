@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Portfolio, experience and projects.">
+  <title>Portfolio | Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <script type="module" src="/js/app.js"></script>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="Home"><span class="brand-mark">J</span><span id="brand-name">Portfolio</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <nav id="navigation" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact" class="nav-contact">Contact ↗</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero section-wrap">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span><span id="availability">OPEN TO OPPORTUNITIES</span></p>
+          <p class="intro">Hello, I'm</p>
+          <h1 id="hero-name">Your Name<span class="accent">.</span></h1>
+          <h2 id="hero-headline">Software Engineer</h2>
+          <p class="hero-summary" id="hero-summary">I build thoughtful digital products and reliable software experiences.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+            <a class="button button-secondary" id="resume-link" href="#" hidden>Download résumé ↓</a>
+          </div>
+          <div class="social-links" id="social-links"></div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+          <div class="art-card"><span class="code-label">BUILDING / LEARNING</span><div class="code-line"><i>01</i> const passion = <b>"engineering";</b></div><div class="code-line"><i>02</i> while (curious) {</div><div class="code-line indent"><i>03</i> <em>keepBuilding();</em></div><div class="code-line"><i>04</i> }</div><div class="art-cursor"></div></div>
+          <span class="art-star star-one">✳</span><span class="art-star star-two">✦</span>
+        </div>
+        <a class="scroll-cue" href="#about">SCROLL TO EXPLORE <span>↓</span></a>
+      </section>
+
+      <section class="section-wrap section-block" id="about">
+        <div class="section-heading"><p class="eyebrow">01 / ABOUT</p><h2>A little about <span class="accent">me.</span></h2></div>
+        <div class="about-content"><p id="about-summary" class="about-text">A short introduction goes here.</p><p class="location-line" id="location-line"></p></div>
+      </section>
+
+      <section class="section-wrap section-block" id="experience">
+        <div class="section-heading"><p class="eyebrow">02 / JOURNEY</p><h2>Where I've <span class="accent">worked.</span></h2></div>
+        <div id="experience-list" class="timeline"></div>
+      </section>
+
+      <section class="section-wrap section-block" id="projects">
+        <div class="section-heading"><p class="eyebrow">03 / SELECTED WORK</p><h2>Things I've <span class="accent">built.</span></h2><p class="section-description">A selection of projects, experiments and solutions.</p></div>
+        <div id="project-list" class="project-grid"></div>
+      </section>
+
+      <section class="section-wrap section-block" id="skills">
+        <div class="section-heading"><p class="eyebrow">04 / TOOLKIT</p><h2>My technical <span class="accent">stack.</span></h2></div>
+        <div id="skill-list" class="skill-grid"></div>
+      </section>
+
+      <section class="section-wrap section-block" id="education">
+        <div class="section-heading"><p class="eyebrow">05 / BACKGROUND</p><h2>Education & <span class="accent">certifications.</span></h2></div>
+        <div class="background-grid"><div><h3>Education</h3><div id="education-list"></div></div><div><h3>Certifications</h3><div id="certification-list"></div></div></div>
+      </section>
+
+      <section class="section-wrap contact-section" id="contact">
+        <p class="eyebrow">06 / GET IN TOUCH</p><h2>Have a good project<br>in <span class="accent">mind?</span></h2>
+        <p>I'm always interested in discussing thoughtful products, engineering challenges and new opportunities.</p>
+        <a class="button button-primary" id="contact-link" href="mailto:hello@example.com">Let's talk <span>↗</span></a>
+      </section>
+    </main>
+
+    <footer class="footer"><span id="footer-name">Portfolio</span><span>Designed & built with care · <span id="year"></span></span><a href="#home">Back to top ↑</a></footer>
+    <div class="load-error" id="load-error" hidden>Portfolio data could not be loaded. Please try again later.</div>
+  </div>
+</body>
+</html>
