@@ -1,0 +1,10 @@
+[
+  {
+    "title": "Example project",
+    "description": "Replace this with a concise explanation of the problem, solution and outcome.",
+    "technologies": ["C#", ".NET", "SQL Server"],
+    "project_url": "",
+    "source_url": "",
+    "featured": true
+  }
+]
