@@ -1,6 +1,17 @@
 [
-  { "category": "Backend", "name": "C#", "level": "" },
-  { "category": "Backend", "name": ".NET", "level": "" },
-  { "category": "Database", "name": "SQL Server", "level": "" },
-  { "category": "Cloud", "name": "Azure", "level": "" }
+  {
+    "category": "Backend",
+    "name": "C#",
+    "level": ""
+  },
+  {
+    "category": "Backend",
+    "name": ".NET",
+    "level": ""
+  },
+  {
+    "category": "Database",
+    "name": "SQL Server",
+    "level": ""
+  }
 ]
