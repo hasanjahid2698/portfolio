@@ -5,10 +5,13 @@
     "location": "Dhaka, Bangladesh",
     "start_date": "Apr-26",
     "end_date": "Present",
-    "summary": "Describe your role and impact.",
+    "summary": "Currently in AI team and working on creating project specific AI agents",
     "highlights": [
-      "Achievement one",
-      "Achievement two"
+      "Agent orchestration: Built and evolved production agent services in Python (FastAPI, LangGraph/LangChain): multi-agent graphs, tools, middleware, and structured plan-then-generate workflows for analytics configuration.",
+      "LLM and RAG: Integrated agents with AWS Bedrock (model invocation, prompt caching) and RAG (knowledge-base retrieval and reranking) so generation is grounded in domain metadata rather than free-form text.",
+      "Platform integration: Connected agents to a microservice backend via typed HTTP clients, dynamic MCP tools, and remote prompt/guardrail composition; persisted agent workspace artifacts on object storage.",
+      "Backend API: Extended ASP.NET Core APIs in sibling services (OpenAPI / NSwag, layered API–business–data) when agents needed new or changed endpoints—contracts, DTOs, and client regeneration across service boundaries.",
+      "Test automation: Owned backend test coverage and BDD/E2E automation (Reqnroll/Gherkin, page objects, step definitions) for analytics admin and dashboard flows."
     ]
   }
 ]
