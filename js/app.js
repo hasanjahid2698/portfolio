@@ -52,6 +52,7 @@ function renderProfile(profile) {
     }
   }
 
+  
   const contact = $("#contact-link");
   contact.href = `mailto:${profile.email}`;
 }
