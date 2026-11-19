@@ -1,17 +1,207 @@
 [
   {
-    "category": "Backend",
+    "category": "Languages & Frameworks",
     "name": "C#",
     "level": ""
   },
   {
-    "category": "Backend",
-    "name": ".NET",
+    "category": "Languages & Frameworks",
+    "name": "ASP.NET Core",
     "level": ""
   },
   {
-    "category": "Database",
-    "name": "SQL Server",
+    "category": "Languages & Frameworks",
+    "name": "JavaScript",
+    "level": ""
+  },
+  {
+    "category": "Languages & Frameworks",
+    "name": "Python",
+    "level": ""
+  },
+  {
+    "category": "Languages & Frameworks",
+    "name": "FastAPI",
+    "level": ""
+  },
+  {
+    "category": "Languages & Frameworks",
+    "name": "AngularJS",
+    "level": ""
+  },
+  {
+    "category": "Languages & Frameworks",
+    "name": "Kotlin",
+    "level": ""
+  },
+  {
+    "category": "Languages & Frameworks",
+    "name": "Django",
+    "level": ""
+  },
+  {
+    "category": "AI & Agentic Systems",
+    "name": "AWS Bedrock",
+    "level": ""
+  },
+  {
+    "category": "AI & Agentic Systems",
+    "name": "LangGraph",
+    "level": ""
+  },
+  {
+    "category": "AI & Agentic Systems",
+    "name": "LangChain",
+    "level": ""
+  },
+  {
+    "category": "AI & Agentic Systems",
+    "name": "RAG",
+    "level": ""
+  },
+  {
+    "category": "AI & Agentic Systems",
+    "name": "MCP",
+    "level": ""
+  },
+  {
+    "category": "AI & Agentic Systems",
+    "name": "Prompt Caching",
+    "level": ""
+  },
+  {
+    "category": "AI & Agentic Systems",
+    "name": "Knowledge-base Retrieval & Reranking",
+    "level": ""
+  },
+  {
+    "category": "AI & Agentic Systems",
+    "name": "Multi-agent Orchestration",
+    "level": ""
+  },
+  {
+    "category": "Databases",
+    "name": "MS SQL",
+    "level": ""
+  },
+  {
+    "category": "Databases",
+    "name": "MySQL",
+    "level": ""
+  },
+  {
+    "category": "Databases",
+    "name": "Cosmos DB",
+    "level": ""
+  },
+  {
+    "category": "Databases",
+    "name": "SQL Execution-plan Tuning",
+    "level": ""
+  },
+  {
+    "category": "Databases",
+    "name": "Stored Procedures",
+    "level": ""
+  },
+  {
+    "category": "Cloud & DevOps",
+    "name": "Microsoft Azure",
+    "level": ""
+  },
+  {
+    "category": "Cloud & DevOps",
+    "name": "Azure App Services",
+    "level": ""
+  },
+  {
+    "category": "Cloud & DevOps",
+    "name": "Application Insights",
+    "level": ""
+  },
+  {
+    "category": "Cloud & DevOps",
+    "name": "Blob Storage",
+    "level": ""
+  },
+  {
+    "category": "Cloud & DevOps",
+    "name": "App Configuration",
+    "level": ""
+  },
+  {
+    "category": "Cloud & DevOps",
+    "name": "AWS S3",
+    "level": ""
+  },
+  {
+    "category": "Cloud & DevOps",
+    "name": "Docker",
+    "level": ""
+  },
+  {
+    "category": "Cloud & DevOps",
+    "name": "Containers",
+    "level": ""
+  },
+  {
+    "category": "Cloud & DevOps",
+    "name": "CI/CD",
+    "level": ""
+  },
+  {
+    "category": "Architecture & Engineering",
+    "name": "RESTful APIs",
+    "level": ""
+  },
+  {
+    "category": "Architecture & Engineering",
+    "name": "Microservices",
+    "level": ""
+  },
+  {
+    "category": "Architecture & Engineering",
+    "name": "OpenAPI / NSwag",
+    "level": ""
+  },
+  {
+    "category": "Architecture & Engineering",
+    "name": "Cloud-native Architecture",
+    "level": ""
+  },
+  {
+    "category": "Architecture & Engineering",
+    "name": "Scalable Distributed Systems",
+    "level": ""
+  },
+  {
+    "category": "Architecture & Engineering",
+    "name": "Unit Testing",
+    "level": ""
+  },
+  {
+    "category": "Architecture & Engineering",
+    "name": "BDD / E2E Testing",
+    "level": ""
+  },
+  {
+    "category": "Architecture & Engineering",
+    "name": "Reqnroll / Gherkin",
+    "level": ""
+  },
+  {
+    "category": "Architecture & Engineering",
+    "name": "Git",
+    "level": ""
+  },
+  {
+    "category": "Architecture & Engineering",
+    "name": "Jira",
+    "level": ""
+  },
+  {
+    "category": "Architecture & Engineering",
+    "name": "Agile / Scrum",
     "level": ""
   }
 ]
