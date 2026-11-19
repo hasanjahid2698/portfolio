@@ -2,7 +2,20 @@ import { z } from "zod";
 
 const text = z.string().trim();
 const optionalText = z.string().trim().optional().default("");
-const url = z.string().trim().url().or(z.literal("")).optional().default("");
+const url = z
+  .string()
+  .trim()
+  .refine(
+    (value) =>
+      value === "" ||
+      z.string().url().safeParse(value).success ||
+      /^\/(?!\/)[^\s]*$/.test(value),
+    {
+      message: "Must be a valid absolute URL or root-relative path"
+    }
+  )
+  .optional()
+  .default("");
 
 const profileSchema = z.object({
   name: text.min(1),
