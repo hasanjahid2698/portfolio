@@ -1,24 +1,11 @@
 [
   {
-    "title": "PasteSite",
-    "description": "A scalable web application for sharing and storing content, built with Django and Firebase.",
+    "title": "Example project",
+    "description": "Describe the problem and outcome.",
     "technologies": [
-      "Django",
-      "Firebase"
-    ],
-    "project_url": "",
-    "source_url": "",
-    "featured": true
-  },
-  {
-    "title": "Cinema Booking System",
-    "description": "A system-design project for a multi-location cinema booking platform, using microservices, SQL partitioning, caching, and load balancing.",
-    "technologies": [
-      "Microservices",
-      "SQL Partitioning",
-      "Caching",
-      "Load Balancing",
-      "System Design"
+      "C#",
+      ".NET",
+      "SQL Server"
     ],
     "project_url": "",
     "source_url": "",

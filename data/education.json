@@ -1,10 +1,10 @@
 [
   {
-    "institution": "University of Dhaka",
-    "degree": "Bachelor of Science",
-    "field": "Computer Science",
-    "start_date": "2017",
-    "end_date": "2021",
-    "details": "CGPA: 3.65 / 4.00"
+    "institution": "Your institution",
+    "degree": "Your degree",
+    "field": "Your field",
+    "start_date": "",
+    "end_date": "",
+    "details": ""
   }
 ]

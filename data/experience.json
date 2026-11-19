@@ -3,44 +3,15 @@
     "company": "IQVIA",
     "role": "Software Development Engineer 3",
     "location": "Dhaka, Bangladesh",
-    "start_date": "Apr 2026",
-    "end_date": "",
-    "summary": "Building production agent services and extending enterprise backend APIs to support analytics configuration and agent-driven workflows.",
+    "start_date": "Apr-26",
+    "end_date": "Present",
+    "summary": "Currently in AI team and working on creating project specific AI agents",
     "highlights": [
-      "Built and evolved Python agent services using FastAPI and LangGraph/LangChain, including multi-agent graphs, tools, middleware, and structured plan-then-generate workflows.",
-      "Integrated agents with AWS Bedrock, prompt caching, and RAG knowledge-base retrieval and reranking so generated outputs are grounded in domain metadata.",
-      "Connected agent services to microservice backends through typed HTTP clients, dynamic MCP tools, and remote prompt/guardrail composition; persisted workspace artifacts on object storage.",
-      "Extended ASP.NET Core APIs using OpenAPI/NSwag and layered API–business–data architecture, including contracts, DTOs, and client regeneration across service boundaries.",
-      "Owned backend test coverage and BDD/E2E automation using Reqnroll/Gherkin, page objects, and step definitions for analytics administration and dashboard flows."
-    ]
-  },
-  {
-    "company": "ENOSIS SOLUTIONS",
-    "role": "Senior Software Engineer",
-    "location": "Dhaka, Bangladesh",
-    "start_date": "Jun 2021",
-    "end_date": "Mar 2026",
-    "summary": "Led engineering delivery and modernized SaaS and EMR platform capabilities for dental professionals, with a focus on cloud architecture, performance, security, and integrations.",
-    "highlights": [
-      "Led a team of 4 engineers through task allocation, mentoring, and code reviews; served as technical point of contact in 40+ client sprint reviews.",
-      "Migrated legacy ASP.NET components toward cloud-native Azure architecture, architected scalable RESTful APIs, and deployed services across Azure and AWS.",
-      "Improved SaaS platform performance by 50%+ through lazy loading, MS SQL execution-plan tuning, and reducing redundant database calls.",
-      "Delivered major Scheduler, Charting, Treatment Planning, and Referral Management modules; integrated XChart, Pearl AI, XVWeb, and ePad.",
-      "Strengthened platform security through DataDome bot protection and remediation of CSRF/data-exposure vulnerabilities; improved reliability with retry/back-off policies."
-    ]
-  },
-  {
-    "company": "BROTECS TECHNOLOGIES",
-    "role": "Android Intern",
-    "location": "Dhaka, Bangladesh",
-    "start_date": "Dec 2020",
-    "end_date": "May 2021",
-    "summary": "Contributed to Android health-monitoring and medical-record applications while developing practical Kotlin and Android architecture experience.",
-    "highlights": [
-      "Worked with Kotlin and MVVM architecture.",
-      "Integrated and tested functionality with the Medical Record System API.",
-      "Completed a demo project using Camera2 API, Retrofit, and Gson.",
-      "Contributed to a health-monitoring application project."
+      "Agent orchestration: Built and evolved production agent services in Python (FastAPI, LangGraph/LangChain): multi-agent graphs, tools, middleware, and structured plan-then-generate workflows for analytics configuration.",
+      "LLM and RAG: Integrated agents with AWS Bedrock (model invocation, prompt caching) and RAG (knowledge-base retrieval and reranking) so generation is grounded in domain metadata rather than free-form text.",
+      "Platform integration: Connected agents to a microservice backend via typed HTTP clients, dynamic MCP tools, and remote prompt/guardrail composition; persisted agent workspace artifacts on object storage.",
+      "Backend API: Extended ASP.NET Core APIs in sibling services (OpenAPI / NSwag, layered API–business–data) when agents needed new or changed endpoints—contracts, DTOs, and client regeneration across service boundaries.",
+      "Test automation: Owned backend test coverage and BDD/E2E automation (Reqnroll/Gherkin, page objects, step definitions) for analytics admin and dashboard flows."
     ]
   }
 ]
