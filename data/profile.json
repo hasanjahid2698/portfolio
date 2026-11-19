@@ -1,14 +1,14 @@
 [
   {
-    "name": "Md. Jahid Hasan",
-    "headline": "Senior Software Engineer",
+    "name": "Jahid Hasan",
+    "headline": "Software Development Engineer 3 | Agentic AI & Full-Stack Systems",
     "location": "Dhaka, Bangladesh",
-    "summary": "Senior Software Engineer with 5+ years building scalable SaaS and EMR platforms, now focused on production generative-AI services. Full-stack and agentic systems: C#, ASP.NET Core, Python, FastAPI, LangGraph/LangChain, JavaScript, SQL, and Kotlin; AWS Bedrock, RAG, MCP, and OpenAPI-backed microservices. Proven ability to lead development in remote-first teams, extend backend APIs for agent workflows, and ship reliable software through automated testing and CI.",
+    "summary": "Software engineer with 5+ years of experience building scalable SaaS and EMR platforms, now focused on production generative-AI services. Experienced in C#, ASP.NET Core, Python, FastAPI, LangGraph/LangChain, AWS Bedrock, RAG, MCP, REST APIs, microservices, cloud architecture, and automated testing. Led engineering teams, modernized backend platforms, improved SaaS performance by 50%+, and built agent workflows integrated with enterprise services.",
     "email": "hasanjahid2698@gmail.com",
-    "linkedin_url": "https://www.linkedin.com/in/md-jahid-hasan-60048917a/",
-    "github_url": "https://github.com/hasanjahid2698",
-    "website_url": "https://portfolio.hasanjahid2698.workers.dev/",
-    "resume_url": "https://docs.google.com/document/d/1-FD6uMEz2GPT2V2e_MuZP-Tyusbl4ulYSRbqgQ53o90/edit?usp=sharing",
-    "availability": "OPEN TO INTERESTING OPPORTUNITIES"
+    "linkedin_url": "https://linkedin.com/in/jahid-hasan",
+    "github_url": "https://github.com/hasanjahid2698/",
+    "website_url": "",
+    "resume_url": "/assets/Jahid-Hasan-Resume-2026.pdf",
+    "availability": "PRODUCTION AI · FULL-STACK ENGINEERING"
   }
 ]
