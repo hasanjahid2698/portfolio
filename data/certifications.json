@@ -1,14 +1,26 @@
 [
   {
+    "name": "Build AI Agents with LangChain and LangGraph RAG, Tools, MCP and Production-Ready Agentic AI Systems (Python)",
+    "issuer": "Udemy",
+    "issue_date": "Jun 2026",
+    "credential_url": "https://www.udemy.com/certificate/UC-f2f58aea-b0e2-4f01-aae1-8b5ab7b59085/"
+  },
+  {
+    "name": "Kubernetes for the Absolute Beginners - Hands-on",
+    "issuer": "Udemy",
+    "issue_date": "May 2026",
+    "credential_url": "https://www.udemy.com/certificate/UC-5613e5e9-c3e5-4787-8674-14c08d3817c6/"
+  },
+  {
     "name": "Web Application Security with OWASP Top 10 – Advanced",
     "issuer": "EDUCSA",
-    "issue_date": "",
-    "credential_url": ""
+    "issue_date": "Dec 2021",
+    "credential_url": "https://www.educba.com/certificate/?c=V38XCZIFH"
   },
   {
     "name": "Neural Networks & Deep Learning",
     "issuer": "Coursera",
-    "issue_date": "",
-    "credential_url": ""
+    "issue_date": "Aug 2020",
+    "credential_url": "https://www.coursera.org/account/accomplishments/certificate/42N8EVH78FHC"
   }
 ]
